@@ -1,0 +1,205 @@
+<mxfile host="65bd71144e">
+    <diagram id="2SS65FwkjjzGdzf5fi92" name="Page-1">
+        <mxGraphModel dx="753" dy="494" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" background="#000000" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="28" value="START" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Courier New;fontStyle=1;horizontal=1;" parent="1" vertex="1">
+                    <mxGeometry x="713.5" y="227" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" style="edgeStyle=orthogonalEdgeStyle;html=1;fontFamily=Courier New;fontSize=18;" parent="1" source="29" target="38" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="838" y="349"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="Input&lt;br&gt;s = seconds" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Courier New;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="693.5" y="324" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=none;html=1;fontFamily=Courier New;" parent="1" source="28" target="29" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="Calculate&lt;br&gt;hr = s // 3600" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="614" y="410" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=orthogonalEdgeStyle;html=1;fontFamily=Courier New;" parent="1" source="29" target="31" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="674" y="351"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" value="Output&lt;br&gt;hr, min" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Courier New;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="693.5" y="495" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" style="edgeStyle=elbowEdgeStyle;html=1;fontFamily=Courier New;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;" parent="1" source="31" target="33" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="END" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Courier New;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="715" y="576" width="77" height="77" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" style="edgeStyle=none;html=1;fontFamily=Courier New;" parent="1" source="33" target="35" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="seconds -&amp;gt; hr &amp;amp; min" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Courier New;fontStyle=1;fontSize=18;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="190" width="223" height="33" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" style="edgeStyle=elbowEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;fontSize=18;elbow=vertical;" parent="1" source="38" target="33" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="Calculate&lt;br&gt;min = s // 60" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="778" y="410" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="START" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Courier New;fontStyle=1;horizontal=1;" parent="1" vertex="1">
+                    <mxGeometry x="1539" y="210" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" style="html=1;fontFamily=Courier New;fontSize=18;edgeStyle=orthogonalEdgeStyle;" parent="1" source="44" target="54" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1790" y="344"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" style="edgeStyle=none;html=1;fontFamily=Courier New;fontSize=18;" parent="1" source="44" target="55" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="44" target="46" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1380" y="340"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="Input&lt;br&gt;num1 = first number&lt;br&gt;num2 = second number&lt;br&gt;num3 = third number" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Courier New;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="1470" y="312" width="218" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" style="edgeStyle=none;html=1;fontFamily=Courier New;" parent="1" source="42" target="44" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;fontFamily=Courier New;fontSize=18;" parent="1" source="46" target="48" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="Calculate&lt;br&gt;max = max(num1,num2,num3)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="1282" y="398" width="195" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="Output&lt;br&gt;max, min,&lt;br&gt;avg" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Courier New;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="1522" y="504" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="END" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Courier New;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="1540.5" y="588" width="77" height="77" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" style="edgeStyle=none;html=1;fontFamily=Courier New;" parent="1" target="50" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1581" y="564" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="52" value="max, min, avg" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Courier New;fontStyle=1;fontSize=18;" parent="1" vertex="1">
+                    <mxGeometry x="1503" y="177" width="158" height="33" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;fontFamily=Courier New;fontSize=18;" parent="1" source="54" target="48" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="Calculate&lt;br&gt;min = min(num1,num2,num3)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="1690" y="398" width="199" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" style="edgeStyle=none;html=1;fontFamily=Courier New;fontSize=18;" parent="1" source="55" target="48" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="Calculate&lt;br&gt;avg = (num1+num2+num3)/3" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="1487" y="398" width="190" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="START" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Courier New;fontStyle=1;horizontal=1;" parent="1" vertex="1">
+                    <mxGeometry x="1190.5" y="972" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="Input&lt;br&gt;W = width&lt;br&gt;L = length" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Courier New;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="1170.5" y="1069" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" style="edgeStyle=none;html=1;fontFamily=Courier New;" parent="1" source="73" target="74" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="Calculate&lt;br&gt;circumference = 2 * (W + L)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="1127" y="1153" width="207" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" style="edgeStyle=none;html=1;fontFamily=Courier New;" parent="1" source="74" target="76" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="Output&lt;br&gt;Circumference" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Courier New;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="1170.5" y="1240" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" style="edgeStyle=none;html=1;fontFamily=Courier New;" parent="1" source="76" target="78" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="END" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Courier New;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="1192" y="1321" width="77" height="77" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" style="edgeStyle=none;html=1;fontFamily=Courier New;" parent="1" source="78" target="80" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="Rectangle Circumference" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Courier New;fontStyle=1;fontSize=18;" parent="1" vertex="1">
+                    <mxGeometry x="1099" y="920" width="266" height="33" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="START" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Courier New;fontStyle=1;horizontal=1;" parent="1" vertex="1">
+                    <mxGeometry x="880.5" y="972" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="Input&lt;br&gt;r = radius" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Courier New;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="860.5" y="1069" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" style="edgeStyle=none;html=1;fontFamily=Courier New;" parent="1" source="62" target="63" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="Calculate&lt;br&gt;area = π*r*r" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="860.5" y="1153" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" style="edgeStyle=none;html=1;fontFamily=Courier New;" parent="1" source="63" target="65" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="Output&lt;br&gt;area" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Courier New;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="860.5" y="1240" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" style="edgeStyle=none;html=1;fontFamily=Courier New;" parent="1" source="65" target="67" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="END" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Courier New;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="882" y="1321" width="77" height="77" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" style="edgeStyle=none;html=1;fontFamily=Courier New;" parent="1" source="67" target="69" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="Area of Circle" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Courier New;fontStyle=1;fontSize=18;" parent="1" vertex="1">
+                    <mxGeometry x="837" y="920" width="169" height="33" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="START" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Courier New;fontStyle=1;horizontal=1;" parent="1" vertex="1">
+                    <mxGeometry x="409.5" y="227" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Input&lt;br&gt;b = base&lt;br&gt;h = height" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Courier New;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="389.5" y="324" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" style="edgeStyle=none;html=1;fontFamily=Courier New;" parent="1" source="3" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Calculate&lt;br&gt;area = 1/2*b*h" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="389.5" y="408" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;fontFamily=Courier New;" parent="1" source="4" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Output&lt;br&gt;area" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Courier New;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="389.5" y="495" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;fontFamily=Courier New;" parent="1" source="6" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="END" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Courier New;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="411" y="576" width="77" height="77" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;fontFamily=Courier New;" parent="1" source="8" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Area of Triangle" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Courier New;fontStyle=1;fontSize=18;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="188" width="191" height="33" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
