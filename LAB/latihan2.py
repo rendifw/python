@@ -35,9 +35,9 @@ while True:
     # Input Password
     elif option == 3:
         password = input("Enter your password: ")
-        # Validasi password harus lebih dari 8 karakter
+        # Validasi password panjangnya harus atleast 8 karakter
         while len(password) < 8:
-            print("Invalid input! Password must be longer than 8 characters!")
+            print("Invalid input! Password must be atleast 8 characters!")
             password = input("Enter your password: ")
         print("Success! \n")
     
